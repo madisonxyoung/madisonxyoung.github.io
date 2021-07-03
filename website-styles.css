@@ -2,6 +2,19 @@ html{
     font-family: Century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif
 }
 
-.text-centered{
+body{
+    background-color: rgb(124, 196, 218);
+}
+#header{
+    color:rgb(228, 228, 228);
     text-align: center;
+    border: 2px solid darkblue;
+    background-color: darkblue;
+}
+
+.top-strip{
+    width: 100%;
+    height: 50px;
+    object-fit: cover;
+    object-position: 80% 100%
 }
